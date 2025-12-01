@@ -10,11 +10,12 @@
       href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap"
       rel="stylesheet"
     />
-    <script src="https://cdn.tailwindcss.com"></script>
+
     <script
       src="https://kit.fontawesome.com/d5a55f1c3d.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
         theme: {
@@ -36,6 +37,49 @@
     </style>
   </head>
   <body class="font-manrope">
-    <h1 class="text-3xl font-bold underline">Hello world!</h1>
+    <!-- Main Content -->
+    <main class="max-w-screen-xl mx-auto px-16 lg:px-0">
+      <!-- Header Section -->
+      <header
+        class="flex flex-col justify-center md:flex-row md:justify-between items-center pt-10 mb-20 lg:gap-3"
+      >
+        <!-- Text Content -->
+        <div>
+          <h1
+            class="font-black text-4xl leading-[3rem] lg:text-[5rem] md:leading-[4rem] lg:leading-[6.25rem] mb-7 text-[#1C1C1C]"
+          >
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <p
+            class="font-medium text-sm md:text-base leading-7 text-[#777777] mb-7 md:w-3/4"
+          >
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds.
+          </p>
+          <button
+            class="py-[12px] px-4 lg:py-[18px] lg:px-5 mb-10 md:mb-0 bg-gradient-to-r from-[#FF8938] to-[#FF0000] text-[#FFFFFF] rounded-lg font-medium md:font-bold text-md lg:text-[1.25rem]"
+          >
+            Explore More
+            <i class="fa-solid fa-arrow-right -rotate-45"></i>
+          </button>
+        </div>
+        <!-- Image Content -->
+        <div>
+          <!-- Image -->
+          <div>
+            <img class="w-full" src="images/banner.png" alt="" />
+          </div>
+          <!-- Card -->
+          <div>
+            <!-- Icon -->
+            <div><i class="fa-solid fa-star"></i></div>
+            <!-- Card detail -->
+            <div></div>
+          </div>
+        </div>
+      </header>
+    </main>
   </body>
 </html>
