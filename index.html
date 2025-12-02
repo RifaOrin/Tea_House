@@ -22,6 +22,7 @@
           extend: {
             colors: {
               clifford: "#da373d",
+              white: "rgba(244, 244, 244, 0)",
             },
           },
         },
@@ -38,10 +39,10 @@
   </head>
   <body class="font-manrope">
     <!-- Main Content -->
-    <main class="max-w-screen-xl mx-auto px-16 lg:px-0">
+    <main class="max-w-screen-xl mx-auto px-16 md:px-24 lg:px-0">
       <!-- Header Section -->
       <header
-        class="flex flex-col justify-center md:flex-row md:justify-between items-center pt-10 mb-20 lg:gap-3"
+        class="flex flex-col justify-center md:flex-row md:justify-between items-center pt-10 lg:gap-3"
       >
         <!-- Text Content -->
         <div>
@@ -97,6 +98,73 @@
           </div>
         </div>
       </header>
+
+      <!-- Feature Product Section -->
+      <section class="py-12 md:py-24 lg:py-32">
+        <!-- Section Title and description -->
+        <div>
+          <h3
+            class="mb-5 font-extrabold text-2xl md:text-3xl lg:text-5xl text-[#1C1C1C] text-center"
+          >
+            Our Featured Products
+          </h3>
+          <p
+            class="w-full md:w-3/4 mx-auto text-sm leading-6 lg:text-base lg:leading-7 text-[#777777] font-medium text-center mb-12"
+          >
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+        <!-- Card Section -->
+        <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+          <div
+            class="bg-gradient-to-b from-[#F4F4F4] to-[white] rounded-lg p-8 flex flex-col items-center justify-center text-center"
+          >
+            <img src="images/tea-1.png" alt="" />
+            <h5 class="font-extrabold text-2xl text-[#1C1C1C] mb-2 mt-7">
+              Milk Tea
+            </h5>
+            <p class="font-semibold text-base text-[#777777]">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <div
+            class="bg-gradient-to-b from-[#F4F4F4] to-[white] rounded-lg p-8 flex flex-col items-center justify-center text-center"
+          >
+            <img src="images/tea-2.png" alt="" />
+            <h5 class="font-extrabold text-2xl text-[#1C1C1C] mb-2 mt-7">
+              Black Tea
+            </h5>
+            <p class="font-semibold text-base text-[#777777]">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <div
+            class="bg-gradient-to-b from-[#F4F4F4] to-[white] rounded-lg p-8 flex flex-col items-center justify-center text-center"
+          >
+            <img src="images/tea-3.png" alt="" />
+            <h5 class="font-extrabold text-2xl text-[#1C1C1C] mb-2 mt-7">
+              Lemon Tea
+            </h5>
+            <p class="font-semibold text-base text-[#777777]">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <div
+            class="md:hidden bg-gradient-to-b from-[#F4F4F4] to-[white] rounded-lg p-8 flex flex-col items-center justify-center text-center"
+          >
+            <img src="images/tea-4.png" alt="" />
+            <h5 class="font-extrabold text-2xl text-[#1C1C1C] mb-2 mt-7">
+              Green Tea
+            </h5>
+            <p class="font-semibold text-base text-[#777777]">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
 </html>
