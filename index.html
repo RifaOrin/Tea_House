@@ -414,7 +414,7 @@
       </section>
     </main>
     <footer
-      class="px-16 md:px-24 lg:px-0 md:py-32"
+      class="px-16 py-16 md:px-24 lg:px-0 md:py-32"
       style="
         background: linear-gradient(
           to right,
@@ -425,21 +425,21 @@
     >
       <div class="max-w-screen-xl mx-auto">
         <!-- Logo section -->
-        <div class="flex justify-between items-center mb-24">
-          <img src="images/cup.png" alt="" />
-          <div class="flex items-center gap-10">
-            <p class="font-medium text-xl leading-10 text-[#494949]">
+        <div class="flex flex-col md:flex-row gap-5 md:gap-0 md:justify-between md:items-center mb-16 md:mb-24">
+          <div class="w-[62px] h-[64px]"><img class="w-full" src="images/cup.png" alt="" /></div>
+          <div class="flex justify-between items-center gap-10">
+            <p class="font-medium text-base md:text-xl md:leading-10 text-[#494949]">
               Ready to get started?
             </p>
             <button
-              class="text-[#FFFFFF] px-6 py-4 bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-lg font-bold text-xl"
+              class="text-[#FFFFFF] px-5 py-2 md:px-6 md:py-4 bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-lg font-bold text-sm md:text-xl"
             >
               Get Started
             </button>
           </div>
         </div>
         <!-- Footer content -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 lg:gap-0">
           <div>
             <h1 class="font-semibold text-xl text-[#1C1C1C] mb-6">Quick Links</h1>
             <ul class="space-y-5 text-base text-[#494949]">
@@ -467,9 +467,9 @@
           </div>
           <div>
             <h1 class="font-semibold text-2xl leading-10 text-[#1C1C1C] mb-10">Subscribe to our <br> newsletter</h1>
-            <form action="submit" class="mb-12">
-              <input type="email" name="" id="" placeholder="Email Address" class="bg-transparent border-b-2 border-[#494949] pb-6  placeholder:text-[#494949]">
-              <button class="bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-full text-[#FFFFFF] ml-4 p-2 text-2xl"><i class="fa-solid fa-chevron-right"></i></button>
+            <form action="" class="mb-12">
+              <div class="flex items-center justify-between"><input type="email" name="" id="" placeholder="Email Address" class="w-3/4 lg:w-full bg-transparent border-b-2 border-[#494949] pb-6  placeholder:text-[#494949]">
+              <button class=" bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-full text-[#FFFFFF] md-2 md:ml-4 p-2 text-sm md:text-xl lg:text-2xl"><i class="fa-solid fa-chevron-right"></i></button></div>
             </form>
             <!-- Social Media Icons -->
             <div class="flex items-center gap-6 text-2xl text-[#494949]">
